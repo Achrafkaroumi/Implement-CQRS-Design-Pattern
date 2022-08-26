@@ -1,7 +1,7 @@
 package karoumi.achraf.productmicroservices.command.api.controller;
 
 import karoumi.achraf.productmicroservices.command.api.commands.CreateProductCommand;
-import karoumi.achraf.productmicroservices.command.api.model.request.ProductCommandRequest;
+import karoumi.achraf.productmicroservices.common.api.request.ProductCommandRequest;
 import lombok.AllArgsConstructor;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.web.bind.annotation.PostMapping;
